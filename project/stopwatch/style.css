@@ -1,0 +1,211 @@
+:root {
+  --background: #eaeaea;
+  --background-dark: #121212;
+  --text-color: #fff;
+  --stopwatch-color: #ef4444;
+  --text-btn: #090909;
+  --background-btn: #e8e8e8;
+  --background-btn-before: rgba(0, 0, 0, 0.05);
+  --color-btn-active: #666;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  font-family: "Georgia";
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--background-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .link {
+    text-decoration: none;
+
+    .title {
+      color: var(--text-color);
+    }
+  }
+
+  .link:hover {
+    font-style: italic;
+  }
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(25, 25, 25, .8), rgba(0, 0, 0, .6)), url("./img/stopwatch.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-wrapper {
+  color: var(--text-color);
+
+  .text-message {
+    text-align: center;
+
+    span {
+      color: var(--text-color);
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
+}
+
+.stopwatch {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  color: var(--stopwatch-color);
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .stopwatch {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .stopwatch {
+    font-size: 3.5em;
+  }
+}
+
+.controls {
+  width: 90%;
+  margin: 5% auto 0% auto;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .btn {
+    height: 50px;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    margin-bottom: 3%;
+    overflow: hidden;
+    z-index: 1;
+    color: var(--text-btn);
+    cursor: pointer;
+    border-radius: 0.5em;
+    background: var(--background-btn);
+    border: 1px solid var(--background-btn);
+    box-shadow: 6px 6px 12px var(--background-dark),
+      -6px -6px 12px var(--background-dark);
+    opacity: 0.9;
+  }
+
+  .btn:active {
+    color: var(--color-btn-active);
+    box-shadow: inset 4px 4px 12px var(--background-dark),
+      inset -4px -4px 12px var(--background-dark);
+  }
+
+  .btn:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: var(--background-btn-before);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+
+  .btn:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: var(--background-dark);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+
+  .btn:hover {
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+  }
+
+  .btn:hover:before {
+    top: -35%;
+    background-color: var(--background-dark);
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+
+  .btn:hover:after {
+    top: -45%;
+    background-color: var(--background-dark);
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .controls {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .controls {
+    width: 30%;
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--background-dark);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  .link {
+    text-decoration: none;
+
+    .textFooter {
+      color: var(--text-color);
+    }
+  }
+
+  .link:hover {
+    font-style: italic;
+  }
+}
