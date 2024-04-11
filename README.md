@@ -30,7 +30,7 @@
 [![JavaScript projects](https://img.shields.io/badge/JavaScript%20projects-%234caf50.svg?style=flat&logo=github&logoColor=white)](https://github.com/LuisF3-JS/javascript-projects/wiki "JavaScript projects")
 
 ## Project
-[![Project](https://img.shields.io/badge/Project-%234caf50.svg?logo=github&logoColor=white)](https://github.com/LuisF3-JS "GitHub - LuisF3_JS")
+[![Project](https://img.shields.io/badge/Project-%234caf50.svg?logo=github&logoColor=white)](https://github.com/LuisF3-JS/javascript-projects/tree/main/project "GitHub - Projects")
 
 ## Authors
 [![LuisF3_JS](https://img.shields.io/badge/LuisF3_JS-%234caf50.svg?logo=github&logoColor=white)](https://github.com/LuisF3-JS "GitHub - LuisF3_JS")
