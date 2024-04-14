@@ -39,7 +39,7 @@
 If you have any feedback, please reach out to us at lfgotluis3@outlook.com
 
 ## 🔗 Links
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/LuisF3JS "Facebook - LuisF3_JS") [![X](https://img.shields.io/badge/X(Twiter)-black.svg?logo=X&logoColor=white)](https://x.com/LuisF3_JS "X (Twitter) - LuisF3_JS") [![Instagram](https://img.shields.io/badge/Instagram-%23ff7341?logo=Instagram&logoColor=white)](https://instagram.com/luisf3_js "Instagram - LuisF3_JS") [![Threads](https://img.shields.io/badge/Threads-%23b02cbb.svg?logo=Threads&logoColor=white)](https://www.threads.net/@luisf3_js "Threads - LuisF3_JS") [![YouTube](https://img.shields.io/badge/YouTube-%23DA1F26.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCVR8Cu9SWoEUTJ5BKocehVQ "YouTube - LuisF3_JS") [![CodeSandbox](https://img.shields.io/badge/CodeSandbox-%23dcff50.svg?logo=codesandbox&logoColor=121212)](https://codesandbox.io/u/luisf3_js "CodeSandbox - LuisF3_JS")
+[![YouTube](https://img.shields.io/badge/YouTube-%23DA1F26.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCVR8Cu9SWoEUTJ5BKocehVQ "YouTube - LuisF3_JS")
 
 ## License
 [![MIT](https://img.shields.io/badge/MIT-%23DA1F26.svg?logo=creativecommons&logoColor=white)](https://choosealicense.com/licenses/mit/ "License")
